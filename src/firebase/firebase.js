@@ -7,7 +7,7 @@ const config = {
   projectId: "askan-6ccad",
   storageBucket: "askan-6ccad.appspot.com",
   messagingSenderId: "799773169786"
-}
+};
 
 if (!firebase.apps.length) {
   firebase.initializeApp(config);
