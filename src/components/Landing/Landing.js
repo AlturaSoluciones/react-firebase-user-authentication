@@ -1,17 +1,8 @@
-import React, { Component } from 'react';
-import './Lading.css';
+import React from 'react';
 
-class Landing extends Component {
-  render() {
-    return (
-      <div className="Landing">
-        <header className="Lading-header">
-          <h1 className="Landing-title">Welcome to React User Authentication with Firebase</h1>
-        </header>
-        <a href=""></a>
-      </div>
-    );
-  }
-}
+const LandingPage = () =>
+  <div>
+    <h1>Landing Page</h1>
+  </div>
 
-export default App;
+export default LandingPage;
